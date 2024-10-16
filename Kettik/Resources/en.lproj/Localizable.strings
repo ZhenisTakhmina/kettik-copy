@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  Kettik
+
+  Created by Tami on 30.04.2024.
+  
+*/
+
+"common.email" = "Email";
+"common.password" = "Password";
+"common.sign_up" = "Sign Up";
+"common.full_name" = "Full Name";
+"common.view_all" = "View all";
+
+"auth.title" = "Welcome back!";
+"auth.enter_your_email" = "Enter your email";
+"auth.enter_password" = "Enter password";
+"auth.fogot_password" = "Forgot Password?";
+"auth.log_in" = "Log In";
+"auth.sign_up" = "Sign Up";
+"auth.sign_up_text" = "Don't have an account?";
+"auth.enter_full_name" = "Enter your full name";
+"auth.enter_your_password" = "Enter your password";
+"auth.password_hint" = "Your password must include at least one symbol and be 8 or more character";
+"auth.confirmation_title" = "We just emailed you.";
+"auth.confirmation_text" = "Please enter the code we emailed you.";
+"auth.confirmation_code" = "Confirmation code";
+"auth.resend_code" = "Resend Code";
+"auth.verify" = "Verify";
+
+"tab.explore" = "Explore";
+"tab.guides" = "Guides";
+"tab.orders" = "Orders";
+"tab.profile" = "Profile";
+
+"explore.title" = "Welcome to Almaty!";
+"explore.searchText" = "Search text";
+
+"trip.slash_person" = "/ person";
+"trip.about_tour" = "About tour";
+"trip.total_price" = "Total Price";
+"trip.book_now" = "Book now";
+"trip.difficulty.easy" = "Easy";
+"trip.difficulty.hard" = "Hard";
+"trip.difficulty.medium" = "Medium";
+
+"profile.my_tickets" = "My Tickets";
+"profile.my_profile" = "My Profile";
+"profile.favourites" = "Favourites";
+"profile.language" = "Language";
+"profile.faq" = "Question & Answers";
+"profile.social_media_title" = "We are in social media :)";
+"profile.sign_out" = "Sign Out";
+"profile.save" = "Save";
+
+"ticket.date" = "DATE";
+"ticket.count" = "COUNT";
+"ticket.trip" = "TRIP";
+"ticket.price" = "PRICE";
+"ticket.ticket" = " ticket";
+"ticket.make_purchase" = "Make purchase";
+"ticket.pending" = "Pending";
+"ticket.purchased" = "Purchased";
+"ticket.status" = "STATUS";
+"ticket.invalid" = "Invalid";

@@ -1,0 +1,42 @@
+input_dir: Kettik/Resources/
+output_dir: Kettik/Resources/
+
+strings:
+  inputs:
+    - en.lproj
+  outputs:
+    - templatePath: swiftgen-templates/structured-swift5.stencil
+      output: Generated/KTStrings.swift
+      params:
+        enumName: KTStrings
+        publicAccess: true
+
+fonts:
+   inputs:
+     - Fonts
+   outputs:
+     - templateName: swift5
+       output: Generated/KTFonts.swift
+       params:
+        enumName: KTFonts
+        publicAccess: true
+
+xcassets:
+ - inputs:
+     - Images.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         enumName: KTImages
+         publicAccess: true
+         forceProvidesNamespaces: true
+       output: Generated/KTImages.swift
+ - inputs:
+     - Colors.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         enumName: KTColors
+         publicAccess: true
+         forceProvidesNamespaces: true
+       output: Generated/KTColors.swift

@@ -1,0 +1,1421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271215452BE4CC3E006BE61C /* KTAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271215442BE4CC3E006BE61C /* KTAccordionView.swift */; };
+		271215482BE4CC95006BE61C /* KTPRofileSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271215472BE4CC95006BE61C /* KTPRofileSettingsScreen.swift */; };
+		2712154A2BE4CCB6006BE61C /* KTPRofileSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271215492BE4CCB6006BE61C /* KTPRofileSettingsViewModel.swift */; };
+		274729A52BEFA5EC00026129 /* KTImagesCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274729A42BEFA5EC00026129 /* KTImagesCellView.swift */; };
+		274729A72BEFB36400026129 /* KTFullScreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274729A62BEFB36400026129 /* KTFullScreenImageView.swift */; };
+		274729AA2BF02E2500026129 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 274729A92BF02E2500026129 /* GoogleSignIn */; };
+		274729AC2BF02E2500026129 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 274729AB2BF02E2500026129 /* GoogleSignInSwift */; };
+		274729AE2BFBC63600026129 /* KTGoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274729AD2BFBC63600026129 /* KTGoogleButton.swift */; };
+		274729B02BFC0C8C00026129 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274729AF2BFC0C8B00026129 /* GoogleService-Info.plist */; };
+		27AD96052C0E1E53004B639F /* KTTicketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD96042C0E1E53004B639F /* KTTicketStatus.swift */; };
+		449668882BE16BAA00931A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668872BE16BAA00931A5D /* AppDelegate.swift */; };
+		4496688A2BE16BAA00931A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668892BE16BAA00931A5D /* SceneDelegate.swift */; };
+		4496688F2BE16BAA00931A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496688D2BE16BAA00931A5D /* Main.storyboard */; };
+		449668912BE16BAB00931A5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449668902BE16BAB00931A5D /* Images.xcassets */; };
+		449668942BE16BAB00931A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449668922BE16BAB00931A5D /* LaunchScreen.storyboard */; };
+		449668A32BE16C2700931A5D /* KTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668A22BE16C2700931A5D /* KTViewController.swift */; };
+		449668A72BE16C3200931A5D /* KTTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668A62BE16C3200931A5D /* KTTabScreen.swift */; };
+		449668AB2BE16EC000931A5D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449668AA2BE16EC000931A5D /* Colors.xcassets */; };
+		449668B02BE1714C00931A5D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 449668B22BE1714C00931A5D /* Localizable.strings */; };
+		449668B62BE1715F00931A5D /* KTImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668B32BE1715F00931A5D /* KTImages.swift */; };
+		449668B72BE1715F00931A5D /* KTColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668B42BE1715F00931A5D /* KTColors.swift */; };
+		449668B82BE1715F00931A5D /* KTFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668B52BE1715F00931A5D /* KTFonts.swift */; };
+		449668BC2BE1733700931A5D /* KTStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668BB2BE1733700931A5D /* KTStrings.swift */; };
+		449668C22BE1740F00931A5D /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 449668C12BE1740F00931A5D /* RxBlocking */; };
+		449668C42BE1740F00931A5D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 449668C32BE1740F00931A5D /* RxCocoa */; };
+		449668C62BE1740F00931A5D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 449668C52BE1740F00931A5D /* RxRelay */; };
+		449668C82BE1740F00931A5D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 449668C72BE1740F00931A5D /* RxSwift */; };
+		449668CB2BE1741C00931A5D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 449668CA2BE1741C00931A5D /* IQKeyboardManagerSwift */; };
+		449668CE2BE1742800931A5D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 449668CD2BE1742800931A5D /* SnapKit */; };
+		449668D12BE1749A00931A5D /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 449668D02BE1749A00931A5D /* RxGesture */; };
+		449668D42BE174A700931A5D /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 449668D32BE174A700931A5D /* Then */; };
+		449668D72BE1750E00931A5D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 449668D62BE1750E00931A5D /* Kingfisher */; };
+		449668DC2BE1895000931A5D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 449668DB2BE1895000931A5D /* FirebaseAuth */; };
+		449668DE2BE1895000931A5D /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 449668DD2BE1895000931A5D /* FirebaseDatabaseSwift */; };
+		449668E02BE1895000931A5D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 449668DF2BE1895000931A5D /* FirebaseFirestoreSwift */; };
+		449668E22BE1895000931A5D /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 449668E12BE1895000931A5D /* FirebaseRemoteConfigSwift */; };
+		449668E62BE18A3800931A5D /* KTApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668E52BE18A3800931A5D /* KTApplicationService.swift */; };
+		449668E82BE18A8800931A5D /* KTLibsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668E72BE18A8800931A5D /* KTLibsProvider.swift */; };
+		449668EE2BE18BDF00931A5D /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668EA2BE18BDF00931A5D /* Injected.swift */; };
+		449668EF2BE18BDF00931A5D /* InjectedValues+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668EB2BE18BDF00931A5D /* InjectedValues+.swift */; };
+		449668F02BE18BDF00931A5D /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668EC2BE18BDF00931A5D /* InjectedValues.swift */; };
+		449668F12BE18BDF00931A5D /* InjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668ED2BE18BDF00931A5D /* InjectionKey.swift */; };
+		449668F32BE18C7000931A5D /* KTDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668F22BE18C7000931A5D /* KTDataService.swift */; };
+		449668F52BE18E2700931A5D /* KTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668F42BE18E2700931A5D /* KTNavigationController.swift */; };
+		449668F92BE18F9200931A5D /* KTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668F82BE18F9200931A5D /* KTViewModel.swift */; };
+		449668FB2BE18FDA00931A5D /* KTViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668FA2BE18FDA00931A5D /* KTViewModelProtocol.swift */; };
+		449668FD2BE1900100931A5D /* KTExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668FC2BE1900100931A5D /* KTExtensions.swift */; };
+		449668FF2BE1908100931A5D /* KTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449668FE2BE1908100931A5D /* KTView.swift */; };
+		449669012BE1909300931A5D /* KTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669002BE1909300931A5D /* KTTableViewCell.swift */; };
+		449669032BE190A800931A5D /* KTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669022BE190A800931A5D /* KTCollectionViewCell.swift */; };
+		449669052BE190DF00931A5D /* KTScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669042BE190DF00931A5D /* KTScrollableViewController.swift */; };
+		449669082BE1914200931A5D /* KTSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669072BE1914200931A5D /* KTSplashScreen.swift */; };
+		4496690B2BE1918500931A5D /* KTSplashLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496690A2BE1918500931A5D /* KTSplashLoadable.swift */; };
+		4496690F2BE1928200931A5D /* KTPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496690E2BE1928200931A5D /* KTPreview.swift */; };
+		449669112BE1942F00931A5D /* KTSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669102BE1942F00931A5D /* KTSpinnerView.swift */; };
+		449669142BE196B600931A5D /* KTExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669132BE196B600931A5D /* KTExploreScreen.swift */; };
+		449669162BE1994000931A5D /* KTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669152BE1994000931A5D /* KTButton.swift */; };
+		449669192BE1998600931A5D /* KTImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669182BE1998600931A5D /* KTImageButton.swift */; };
+		4496691F2BE19AF200931A5D /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4496691A2BE19AF100931A5D /* SF-Pro-Text-Bold.otf */; };
+		449669202BE19AF200931A5D /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4496691B2BE19AF100931A5D /* SF-Pro-Text-Semibold.otf */; };
+		449669212BE19AF200931A5D /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4496691C2BE19AF100931A5D /* SF-Pro-Text-Medium.otf */; };
+		449669222BE19AF200931A5D /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4496691D2BE19AF200931A5D /* SF-Pro-Text-Regular.otf */; };
+		449669232BE19AF200931A5D /* SF-Pro-Text-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4496691E2BE19AF200931A5D /* SF-Pro-Text-Thin.otf */; };
+		449669262BE19B4D00931A5D /* KTHorizontalTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669252BE19B4D00931A5D /* KTHorizontalTripsView.swift */; };
+		4496692B2BE19CA200931A5D /* KTTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496692A2BE19CA200931A5D /* KTTrip.swift */; };
+		4496692D2BE19CA600931A5D /* KTTripAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496692C2BE19CA600931A5D /* KTTripAdapter.swift */; };
+		4496692F2BE19E0600931A5D /* KTViewAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496692E2BE19E0600931A5D /* KTViewAllButton.swift */; };
+		449669312BE19F5600931A5D /* KTExploreTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669302BE19F5600931A5D /* KTExploreTripsView.swift */; };
+		449669332BE19F9C00931A5D /* KTTripsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669322BE19F9C00931A5D /* KTTripsCollection.swift */; };
+		449669352BE1A21E00931A5D /* KTExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669342BE1A21E00931A5D /* KTExploreViewModel.swift */; };
+		449669392BE1A7B600931A5D /* KTTripDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669382BE1A7B600931A5D /* KTTripDetailsScreen.swift */; };
+		4496693D2BE2204C00931A5D /* KTFirebaseServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496693C2BE2204C00931A5D /* KTFirebaseServiceType.swift */; };
+		449669402BE2229500931A5D /* FBSnapshotInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496693F2BE2229500931A5D /* FBSnapshotInitializable.swift */; };
+		449669422BE2230100931A5D /* KTTripsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669412BE2230100931A5D /* KTTripsService.swift */; };
+		449669442BE2233E00931A5D /* KTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669432BE2233E00931A5D /* KTError.swift */; };
+		449669462BE224C100931A5D /* KTTripsCollectionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669452BE224C100931A5D /* KTTripsCollectionsService.swift */; };
+		4496694A2BE235A100931A5D /* KTHorizontalTripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669492BE235A100931A5D /* KTHorizontalTripsViewModel.swift */; };
+		4496694D2BE2375800931A5D /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496694C2BE2375800931A5D /* RxViewController.swift */; };
+		4496694F2BE2406D00931A5D /* KTTripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496694E2BE2406D00931A5D /* KTTripDetailsViewModel.swift */; };
+		449669512BE245A000931A5D /* KTIconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669502BE245A000931A5D /* KTIconTextView.swift */; };
+		449669532BE24EB900931A5D /* KTAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669522BE24EB900931A5D /* KTAuthorizationService.swift */; };
+		449669552BE2505700931A5D /* KTSignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669542BE2505700931A5D /* KTSignInScreen.swift */; };
+		449669572BE250EF00931A5D /* KTInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669562BE250EF00931A5D /* KTInputView.swift */; };
+		4496695A2BE251F900931A5D /* KTEmailInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669592BE251F900931A5D /* KTEmailInputView.swift */; };
+		4496695C2BE2552000931A5D /* KTPasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496695B2BE2552000931A5D /* KTPasswordInputView.swift */; };
+		4496695E2BE2559B00931A5D /* KTPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496695D2BE2559B00931A5D /* KTPrimaryButton.swift */; };
+		449669602BE256EF00931A5D /* KTSignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496695F2BE256EF00931A5D /* KTSignUpScreen.swift */; };
+		449669622BE25AF800931A5D /* KTSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669612BE25AF800931A5D /* KTSignInViewModel.swift */; };
+		449669642BE25DF200931A5D /* KTUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449669632BE25DF200931A5D /* KTUser.swift */; };
+		44C45DDC2BE28B6E0097EDA0 /* KTFullScreenLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DDB2BE28B6E0097EDA0 /* KTFullScreenLoadingView.swift */; };
+		44C45DDF2BE28DFD0097EDA0 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 44C45DDE2BE28DFD0097EDA0 /* Toast */; };
+		44C45DE12BE290860097EDA0 /* KTSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DE02BE290860097EDA0 /* KTSignUpViewModel.swift */; };
+		44C45DE72BE2A52A0097EDA0 /* KTProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DE62BE2A52A0097EDA0 /* KTProfileScreen.swift */; };
+		44C45DEB2BE2BE310097EDA0 /* KTDifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DEA2BE2BE310097EDA0 /* KTDifficultyView.swift */; };
+		44C45DED2BE2BEB20097EDA0 /* KTTripDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DEC2BE2BEB20097EDA0 /* KTTripDifficulty.swift */; };
+		44C45DEF2BE2C5E20097EDA0 /* KTTripsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DEE2BE2C5E20097EDA0 /* KTTripsListScreen.swift */; };
+		44C45DF22BE2C63E0097EDA0 /* KTTripsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DF12BE2C63E0097EDA0 /* KTTripsListViewModel.swift */; };
+		44C45DF52BE2C8090097EDA0 /* KTTripCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DF42BE2C8090097EDA0 /* KTTripCellView.swift */; };
+		44C45DF82BE2CF940097EDA0 /* KTGuidesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DF72BE2CF940097EDA0 /* KTGuidesScreen.swift */; };
+		44C45DFA2BE2D1860097EDA0 /* KTGuideAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DF92BE2D1860097EDA0 /* KTGuideAdapter.swift */; };
+		44C45DFC2BE2D1EB0097EDA0 /* KTGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DFB2BE2D1EB0097EDA0 /* KTGuide.swift */; };
+		44C45DFE2BE2D33A0097EDA0 /* KTGuidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DFD2BE2D33A0097EDA0 /* KTGuidesViewModel.swift */; };
+		44C45E002BE2D40A0097EDA0 /* KTGuidesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45DFF2BE2D40A0097EDA0 /* KTGuidesService.swift */; };
+		44C45E032BE2D9E80097EDA0 /* KTSearchTripsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E022BE2D9E80097EDA0 /* KTSearchTripsScreen.swift */; };
+		44C45E052BE2DC780097EDA0 /* KTSearchTripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E042BE2DC780097EDA0 /* KTSearchTripsViewModel.swift */; };
+		44C45E072BE2E28D0097EDA0 /* KTProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E062BE2E28D0097EDA0 /* KTProfileViewModel.swift */; };
+		44C45E092BE2E5380097EDA0 /* KTStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E082BE2E5380097EDA0 /* KTStatic.swift */; };
+		44C45E0B2BE2E80A0097EDA0 /* KTTripDetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E0A2BE2E80A0097EDA0 /* KTTripDetailsFooterView.swift */; };
+		44C45E0E2BE2F04A0097EDA0 /* KTGuideDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E0D2BE2F04A0097EDA0 /* KTGuideDetailsScreen.swift */; };
+		44C45E112BE2F29B0097EDA0 /* KTFAQScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E102BE2F29B0097EDA0 /* KTFAQScreen.swift */; };
+		44C45E132BE3A44B0097EDA0 /* KTTripsCollectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E122BE3A44B0097EDA0 /* KTTripsCollectionStyle.swift */; };
+		44C45E162BE3A9810097EDA0 /* KTOrderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E152BE3A9810097EDA0 /* KTOrderScreen.swift */; };
+		44C45E182BE3BABB0097EDA0 /* KTCountControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E172BE3BABB0097EDA0 /* KTCountControl.swift */; };
+		44C45E1A2BE3BAE30097EDA0 /* KTOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E192BE3BAE30097EDA0 /* KTOrderViewModel.swift */; };
+		44C45E1C2BE3BCD20097EDA0 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44C45E1B2BE3BCD20097EDA0 /* SF-Pro-Text-Heavy.otf */; };
+		44C45E1E2BE3C16F0097EDA0 /* KTUsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E1D2BE3C16F0097EDA0 /* KTUsersService.swift */; };
+		44C45E212BE3CEDC0097EDA0 /* KTFavouritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E202BE3CEDC0097EDA0 /* KTFavouritesScreen.swift */; };
+		44C45E232BE3CEE10097EDA0 /* KTFavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E222BE3CEE10097EDA0 /* KTFavouritesViewModel.swift */; };
+		44C45E262BE3D0BF0097EDA0 /* KTTicketsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E252BE3D0BF0097EDA0 /* KTTicketsScreen.swift */; };
+		44C45E292BE3E2700097EDA0 /* KTTicketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E282BE3E2700097EDA0 /* KTTicketScreen.swift */; };
+		44C45E2B2BE40D380097EDA0 /* KTTicketKeyValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E2A2BE40D380097EDA0 /* KTTicketKeyValueView.swift */; };
+		44C45E2D2BE410B30097EDA0 /* KTTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E2C2BE410B30097EDA0 /* KTTicket.swift */; };
+		44C45E2F2BE4113F0097EDA0 /* KTTicketAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E2E2BE4113F0097EDA0 /* KTTicketAdapter.swift */; };
+		44C45E312BE418030097EDA0 /* KTTicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C45E302BE418030097EDA0 /* KTTicketsViewModel.swift */; };
+		FB0B953996387A1D711A48A4 /* Pods_Kettik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8DA1E58170DBFFF2B9EB11 /* Pods_Kettik.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271215442BE4CC3E006BE61C /* KTAccordionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTAccordionView.swift; sourceTree = "<group>"; };
+		271215472BE4CC95006BE61C /* KTPRofileSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPRofileSettingsScreen.swift; sourceTree = "<group>"; };
+		271215492BE4CCB6006BE61C /* KTPRofileSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPRofileSettingsViewModel.swift; sourceTree = "<group>"; };
+		274729A42BEFA5EC00026129 /* KTImagesCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTImagesCellView.swift; sourceTree = "<group>"; };
+		274729A62BEFB36400026129 /* KTFullScreenImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFullScreenImageView.swift; sourceTree = "<group>"; };
+		274729AD2BFBC63600026129 /* KTGoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGoogleButton.swift; sourceTree = "<group>"; };
+		274729AF2BFC0C8B00026129 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27AD96042C0E1E53004B639F /* KTTicketStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketStatus.swift; sourceTree = "<group>"; };
+		449668842BE16BAA00931A5D /* Kettik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kettik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449668872BE16BAA00931A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449668892BE16BAA00931A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4496688E2BE16BAA00931A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449668902BE16BAB00931A5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		449668932BE16BAB00931A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449668952BE16BAB00931A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449668A22BE16C2700931A5D /* KTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTViewController.swift; sourceTree = "<group>"; };
+		449668A62BE16C3200931A5D /* KTTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTabScreen.swift; sourceTree = "<group>"; };
+		449668AA2BE16EC000931A5D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		449668B12BE1714C00931A5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		449668B32BE1715F00931A5D /* KTImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTImages.swift; sourceTree = "<group>"; };
+		449668B42BE1715F00931A5D /* KTColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTColors.swift; sourceTree = "<group>"; };
+		449668B52BE1715F00931A5D /* KTFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTFonts.swift; sourceTree = "<group>"; };
+		449668B92BE172F300931A5D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		449668BA2BE1730600931A5D /* kk-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kk-KZ"; path = "kk-KZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		449668BB2BE1733700931A5D /* KTStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTStrings.swift; sourceTree = "<group>"; };
+		449668E52BE18A3800931A5D /* KTApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTApplicationService.swift; sourceTree = "<group>"; };
+		449668E72BE18A8800931A5D /* KTLibsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTLibsProvider.swift; sourceTree = "<group>"; };
+		449668EA2BE18BDF00931A5D /* Injected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		449668EB2BE18BDF00931A5D /* InjectedValues+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InjectedValues+.swift"; sourceTree = "<group>"; };
+		449668EC2BE18BDF00931A5D /* InjectedValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
+		449668ED2BE18BDF00931A5D /* InjectionKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectionKey.swift; sourceTree = "<group>"; };
+		449668F22BE18C7000931A5D /* KTDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTDataService.swift; sourceTree = "<group>"; };
+		449668F42BE18E2700931A5D /* KTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTNavigationController.swift; sourceTree = "<group>"; };
+		449668F82BE18F9200931A5D /* KTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTViewModel.swift; sourceTree = "<group>"; };
+		449668FA2BE18FDA00931A5D /* KTViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTViewModelProtocol.swift; sourceTree = "<group>"; };
+		449668FC2BE1900100931A5D /* KTExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTExtensions.swift; sourceTree = "<group>"; };
+		449668FE2BE1908100931A5D /* KTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTView.swift; sourceTree = "<group>"; };
+		449669002BE1909300931A5D /* KTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTableViewCell.swift; sourceTree = "<group>"; };
+		449669022BE190A800931A5D /* KTCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCollectionViewCell.swift; sourceTree = "<group>"; };
+		449669042BE190DF00931A5D /* KTScrollableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTScrollableViewController.swift; sourceTree = "<group>"; };
+		449669072BE1914200931A5D /* KTSplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSplashScreen.swift; sourceTree = "<group>"; };
+		4496690A2BE1918500931A5D /* KTSplashLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSplashLoadable.swift; sourceTree = "<group>"; };
+		4496690E2BE1928200931A5D /* KTPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPreview.swift; sourceTree = "<group>"; };
+		449669102BE1942F00931A5D /* KTSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSpinnerView.swift; sourceTree = "<group>"; };
+		449669132BE196B600931A5D /* KTExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTExploreScreen.swift; sourceTree = "<group>"; };
+		449669152BE1994000931A5D /* KTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTButton.swift; sourceTree = "<group>"; };
+		449669182BE1998600931A5D /* KTImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTImageButton.swift; sourceTree = "<group>"; };
+		4496691A2BE19AF100931A5D /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		4496691B2BE19AF100931A5D /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		4496691C2BE19AF100931A5D /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		4496691D2BE19AF200931A5D /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		4496691E2BE19AF200931A5D /* SF-Pro-Text-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Thin.otf"; sourceTree = "<group>"; };
+		449669252BE19B4D00931A5D /* KTHorizontalTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTHorizontalTripsView.swift; sourceTree = "<group>"; };
+		4496692A2BE19CA200931A5D /* KTTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTrip.swift; sourceTree = "<group>"; };
+		4496692C2BE19CA600931A5D /* KTTripAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripAdapter.swift; sourceTree = "<group>"; };
+		4496692E2BE19E0600931A5D /* KTViewAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTViewAllButton.swift; sourceTree = "<group>"; };
+		449669302BE19F5600931A5D /* KTExploreTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTExploreTripsView.swift; sourceTree = "<group>"; };
+		449669322BE19F9C00931A5D /* KTTripsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsCollection.swift; sourceTree = "<group>"; };
+		449669342BE1A21E00931A5D /* KTExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTExploreViewModel.swift; sourceTree = "<group>"; };
+		449669382BE1A7B600931A5D /* KTTripDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripDetailsScreen.swift; sourceTree = "<group>"; };
+		4496693C2BE2204C00931A5D /* KTFirebaseServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFirebaseServiceType.swift; sourceTree = "<group>"; };
+		4496693F2BE2229500931A5D /* FBSnapshotInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSnapshotInitializable.swift; sourceTree = "<group>"; };
+		449669412BE2230100931A5D /* KTTripsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsService.swift; sourceTree = "<group>"; };
+		449669432BE2233E00931A5D /* KTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTError.swift; sourceTree = "<group>"; };
+		449669452BE224C100931A5D /* KTTripsCollectionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsCollectionsService.swift; sourceTree = "<group>"; };
+		449669492BE235A100931A5D /* KTHorizontalTripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTHorizontalTripsViewModel.swift; sourceTree = "<group>"; };
+		4496694C2BE2375800931A5D /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		4496694E2BE2406D00931A5D /* KTTripDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripDetailsViewModel.swift; sourceTree = "<group>"; };
+		449669502BE245A000931A5D /* KTIconTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTIconTextView.swift; sourceTree = "<group>"; };
+		449669522BE24EB900931A5D /* KTAuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTAuthorizationService.swift; sourceTree = "<group>"; };
+		449669542BE2505700931A5D /* KTSignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSignInScreen.swift; sourceTree = "<group>"; };
+		449669562BE250EF00931A5D /* KTInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTInputView.swift; sourceTree = "<group>"; };
+		449669592BE251F900931A5D /* KTEmailInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTEmailInputView.swift; sourceTree = "<group>"; };
+		4496695B2BE2552000931A5D /* KTPasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPasswordInputView.swift; sourceTree = "<group>"; };
+		4496695D2BE2559B00931A5D /* KTPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPrimaryButton.swift; sourceTree = "<group>"; };
+		4496695F2BE256EF00931A5D /* KTSignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSignUpScreen.swift; sourceTree = "<group>"; };
+		449669612BE25AF800931A5D /* KTSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSignInViewModel.swift; sourceTree = "<group>"; };
+		449669632BE25DF200931A5D /* KTUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTUser.swift; sourceTree = "<group>"; };
+		44C45DDB2BE28B6E0097EDA0 /* KTFullScreenLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFullScreenLoadingView.swift; sourceTree = "<group>"; };
+		44C45DE02BE290860097EDA0 /* KTSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSignUpViewModel.swift; sourceTree = "<group>"; };
+		44C45DE62BE2A52A0097EDA0 /* KTProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTProfileScreen.swift; sourceTree = "<group>"; };
+		44C45DEA2BE2BE310097EDA0 /* KTDifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTDifficultyView.swift; sourceTree = "<group>"; };
+		44C45DEC2BE2BEB20097EDA0 /* KTTripDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripDifficulty.swift; sourceTree = "<group>"; };
+		44C45DEE2BE2C5E20097EDA0 /* KTTripsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsListScreen.swift; sourceTree = "<group>"; };
+		44C45DF12BE2C63E0097EDA0 /* KTTripsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsListViewModel.swift; sourceTree = "<group>"; };
+		44C45DF42BE2C8090097EDA0 /* KTTripCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripCellView.swift; sourceTree = "<group>"; };
+		44C45DF72BE2CF940097EDA0 /* KTGuidesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuidesScreen.swift; sourceTree = "<group>"; };
+		44C45DF92BE2D1860097EDA0 /* KTGuideAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuideAdapter.swift; sourceTree = "<group>"; };
+		44C45DFB2BE2D1EB0097EDA0 /* KTGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuide.swift; sourceTree = "<group>"; };
+		44C45DFD2BE2D33A0097EDA0 /* KTGuidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuidesViewModel.swift; sourceTree = "<group>"; };
+		44C45DFF2BE2D40A0097EDA0 /* KTGuidesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuidesService.swift; sourceTree = "<group>"; };
+		44C45E022BE2D9E80097EDA0 /* KTSearchTripsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSearchTripsScreen.swift; sourceTree = "<group>"; };
+		44C45E042BE2DC780097EDA0 /* KTSearchTripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSearchTripsViewModel.swift; sourceTree = "<group>"; };
+		44C45E062BE2E28D0097EDA0 /* KTProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTProfileViewModel.swift; sourceTree = "<group>"; };
+		44C45E082BE2E5380097EDA0 /* KTStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTStatic.swift; sourceTree = "<group>"; };
+		44C45E0A2BE2E80A0097EDA0 /* KTTripDetailsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripDetailsFooterView.swift; sourceTree = "<group>"; };
+		44C45E0D2BE2F04A0097EDA0 /* KTGuideDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTGuideDetailsScreen.swift; sourceTree = "<group>"; };
+		44C45E102BE2F29B0097EDA0 /* KTFAQScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFAQScreen.swift; sourceTree = "<group>"; };
+		44C45E122BE3A44B0097EDA0 /* KTTripsCollectionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTripsCollectionStyle.swift; sourceTree = "<group>"; };
+		44C45E152BE3A9810097EDA0 /* KTOrderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTOrderScreen.swift; sourceTree = "<group>"; };
+		44C45E172BE3BABB0097EDA0 /* KTCountControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCountControl.swift; sourceTree = "<group>"; };
+		44C45E192BE3BAE30097EDA0 /* KTOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTOrderViewModel.swift; sourceTree = "<group>"; };
+		44C45E1B2BE3BCD20097EDA0 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		44C45E1D2BE3C16F0097EDA0 /* KTUsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTUsersService.swift; sourceTree = "<group>"; };
+		44C45E202BE3CEDC0097EDA0 /* KTFavouritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFavouritesScreen.swift; sourceTree = "<group>"; };
+		44C45E222BE3CEE10097EDA0 /* KTFavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTFavouritesViewModel.swift; sourceTree = "<group>"; };
+		44C45E252BE3D0BF0097EDA0 /* KTTicketsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketsScreen.swift; sourceTree = "<group>"; };
+		44C45E282BE3E2700097EDA0 /* KTTicketScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketScreen.swift; sourceTree = "<group>"; };
+		44C45E2A2BE40D380097EDA0 /* KTTicketKeyValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketKeyValueView.swift; sourceTree = "<group>"; };
+		44C45E2C2BE410B30097EDA0 /* KTTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicket.swift; sourceTree = "<group>"; };
+		44C45E2E2BE4113F0097EDA0 /* KTTicketAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketAdapter.swift; sourceTree = "<group>"; };
+		44C45E302BE418030097EDA0 /* KTTicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTicketsViewModel.swift; sourceTree = "<group>"; };
+		AE8DA1E58170DBFFF2B9EB11 /* Pods_Kettik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kettik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34DC28E154651429854E6C2 /* Pods-Kettik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kettik.debug.xcconfig"; path = "Target Support Files/Pods-Kettik/Pods-Kettik.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6C43D6B9A7B7D2F808F0FC /* Pods-Kettik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kettik.release.xcconfig"; path = "Target Support Files/Pods-Kettik/Pods-Kettik.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449668812BE16BAA00931A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449668CB2BE1741C00931A5D /* IQKeyboardManagerSwift in Frameworks */,
+				274729AA2BF02E2500026129 /* GoogleSignIn in Frameworks */,
+				449668DC2BE1895000931A5D /* FirebaseAuth in Frameworks */,
+				449668C62BE1740F00931A5D /* RxRelay in Frameworks */,
+				44C45DDF2BE28DFD0097EDA0 /* Toast in Frameworks */,
+				449668C42BE1740F00931A5D /* RxCocoa in Frameworks */,
+				449668D72BE1750E00931A5D /* Kingfisher in Frameworks */,
+				449668D42BE174A700931A5D /* Then in Frameworks */,
+				449668CE2BE1742800931A5D /* SnapKit in Frameworks */,
+				274729AC2BF02E2500026129 /* GoogleSignInSwift in Frameworks */,
+				449668C82BE1740F00931A5D /* RxSwift in Frameworks */,
+				449668DE2BE1895000931A5D /* FirebaseDatabaseSwift in Frameworks */,
+				449668C22BE1740F00931A5D /* RxBlocking in Frameworks */,
+				449668D12BE1749A00931A5D /* RxGesture in Frameworks */,
+				449668E02BE1895000931A5D /* FirebaseFirestoreSwift in Frameworks */,
+				449668E22BE1895000931A5D /* FirebaseRemoteConfigSwift in Frameworks */,
+				FB0B953996387A1D711A48A4 /* Pods_Kettik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E74D18678F0C43398BE6477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B34DC28E154651429854E6C2 /* Pods-Kettik.debug.xcconfig */,
+				CE6C43D6B9A7B7D2F808F0FC /* Pods-Kettik.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		271215462BE4CC74006BE61C /* ProfileSettings */ = {
+			isa = PBXGroup;
+			children = (
+				271215472BE4CC95006BE61C /* KTPRofileSettingsScreen.swift */,
+				271215492BE4CCB6006BE61C /* KTPRofileSettingsViewModel.swift */,
+			);
+			path = ProfileSettings;
+			sourceTree = "<group>";
+		};
+		4496687B2BE16BAA00931A5D = {
+			isa = PBXGroup;
+			children = (
+				449668862BE16BAA00931A5D /* Kettik */,
+				449668852BE16BAA00931A5D /* Products */,
+				0E74D18678F0C43398BE6477 /* Pods */,
+				717AB57822ADA25FE247547E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		449668852BE16BAA00931A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449668842BE16BAA00931A5D /* Kettik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449668862BE16BAA00931A5D /* Kettik */ = {
+			isa = PBXGroup;
+			children = (
+				4496689B2BE16BB600931A5D /* Application */,
+				4496689E2BE16C0300931A5D /* Sources */,
+				4496689C2BE16BC800931A5D /* Scenes */,
+				4496689D2BE16BCF00931A5D /* Resources */,
+			);
+			path = Kettik;
+			sourceTree = "<group>";
+		};
+		4496689B2BE16BB600931A5D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				449668872BE16BAA00931A5D /* AppDelegate.swift */,
+				449668892BE16BAA00931A5D /* SceneDelegate.swift */,
+				274729AF2BFC0C8B00026129 /* GoogleService-Info.plist */,
+				449668952BE16BAB00931A5D /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4496689C2BE16BC800931A5D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4496688D2BE16BAA00931A5D /* Main.storyboard */,
+				449668922BE16BAB00931A5D /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4496689D2BE16BCF00931A5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				449668AF2BE1713F00931A5D /* Fonts */,
+				449668AE2BE1710B00931A5D /* Generated */,
+				449668902BE16BAB00931A5D /* Images.xcassets */,
+				449668AA2BE16EC000931A5D /* Colors.xcassets */,
+				449668B22BE1714C00931A5D /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4496689E2BE16C0300931A5D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4496694B2BE2372500931A5D /* ThirdParty */,
+				449669272BE19B7F00931A5D /* Models */,
+				449669092BE1917900931A5D /* Protocols */,
+				449668E42BE189E900931A5D /* Helpers */,
+				449668E32BE189CD00931A5D /* Services */,
+				449668A12BE16C1700931A5D /* Screens */,
+				449668A02BE16C1100931A5D /* Views */,
+				4496689F2BE16C0C00931A5D /* Base */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4496689F2BE16C0C00931A5D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				449668F72BE18F8800931A5D /* ViewModel */,
+				449668F62BE18F8200931A5D /* Controller */,
+				449668FE2BE1908100931A5D /* KTView.swift */,
+				449669172BE1997E00931A5D /* Button */,
+				449669002BE1909300931A5D /* KTTableViewCell.swift */,
+				449669022BE190A800931A5D /* KTCollectionViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		449668A02BE16C1100931A5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44C45DDB2BE28B6E0097EDA0 /* KTFullScreenLoadingView.swift */,
+				44C45DEA2BE2BE310097EDA0 /* KTDifficultyView.swift */,
+				44C45E172BE3BABB0097EDA0 /* KTCountControl.swift */,
+				44C45DF42BE2C8090097EDA0 /* KTTripCellView.swift */,
+				449669502BE245A000931A5D /* KTIconTextView.swift */,
+				449669582BE251EA00931A5D /* Input */,
+				449669242BE19B3B00931A5D /* HorizontalTrips */,
+				449669102BE1942F00931A5D /* KTSpinnerView.swift */,
+				271215442BE4CC3E006BE61C /* KTAccordionView.swift */,
+				274729A42BEFA5EC00026129 /* KTImagesCellView.swift */,
+				274729A62BEFB36400026129 /* KTFullScreenImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		449668A12BE16C1700931A5D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				449669362BE1A79F00931A5D /* Common */,
+				449669062BE1913B00931A5D /* Splash */,
+				449668A92BE16C3B00931A5D /* Authorization */,
+				449668A82BE16C3500931A5D /* Tab */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		449668A82BE16C3500931A5D /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				449668A62BE16C3200931A5D /* KTTabScreen.swift */,
+				44C45DF62BE2CF8C0097EDA0 /* Guides */,
+				44C45DE52BE2A5240097EDA0 /* Profile */,
+				449669122BE196AE00931A5D /* Explore */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		449668A92BE16C3B00931A5D /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				449668BE2BE1735300931A5D /* SignUp */,
+				449668BD2BE1734A00931A5D /* SignIn */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		449668AE2BE1710B00931A5D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				449668B42BE1715F00931A5D /* KTColors.swift */,
+				449668BB2BE1733700931A5D /* KTStrings.swift */,
+				449668B52BE1715F00931A5D /* KTFonts.swift */,
+				449668B32BE1715F00931A5D /* KTImages.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		449668AF2BE1713F00931A5D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4496691A2BE19AF100931A5D /* SF-Pro-Text-Bold.otf */,
+				4496691C2BE19AF100931A5D /* SF-Pro-Text-Medium.otf */,
+				4496691D2BE19AF200931A5D /* SF-Pro-Text-Regular.otf */,
+				4496691B2BE19AF100931A5D /* SF-Pro-Text-Semibold.otf */,
+				44C45E1B2BE3BCD20097EDA0 /* SF-Pro-Text-Heavy.otf */,
+				4496691E2BE19AF200931A5D /* SF-Pro-Text-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		449668BD2BE1734A00931A5D /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				449669542BE2505700931A5D /* KTSignInScreen.swift */,
+				449669612BE25AF800931A5D /* KTSignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		449668BE2BE1735300931A5D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4496695F2BE256EF00931A5D /* KTSignUpScreen.swift */,
+				44C45DE02BE290860097EDA0 /* KTSignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		449668E32BE189CD00931A5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				449668E52BE18A3800931A5D /* KTApplicationService.swift */,
+				449668F22BE18C7000931A5D /* KTDataService.swift */,
+				449669522BE24EB900931A5D /* KTAuthorizationService.swift */,
+				4496693E2BE2227A00931A5D /* Firestore */,
+				449668E72BE18A8800931A5D /* KTLibsProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		449668E42BE189E900931A5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				449668E92BE18BDF00931A5D /* DI */,
+				449668FC2BE1900100931A5D /* KTExtensions.swift */,
+				44C45E082BE2E5380097EDA0 /* KTStatic.swift */,
+				4496690E2BE1928200931A5D /* KTPreview.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		449668E92BE18BDF00931A5D /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				449668EA2BE18BDF00931A5D /* Injected.swift */,
+				449668EB2BE18BDF00931A5D /* InjectedValues+.swift */,
+				449668EC2BE18BDF00931A5D /* InjectedValues.swift */,
+				449668ED2BE18BDF00931A5D /* InjectionKey.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		449668F62BE18F8200931A5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				449668A22BE16C2700931A5D /* KTViewController.swift */,
+				449669042BE190DF00931A5D /* KTScrollableViewController.swift */,
+				449668F42BE18E2700931A5D /* KTNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		449668F72BE18F8800931A5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				449668F82BE18F9200931A5D /* KTViewModel.swift */,
+				449668FA2BE18FDA00931A5D /* KTViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		449669062BE1913B00931A5D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				449669072BE1914200931A5D /* KTSplashScreen.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		449669092BE1917900931A5D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4496690A2BE1918500931A5D /* KTSplashLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		449669122BE196AE00931A5D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				449669132BE196B600931A5D /* KTExploreScreen.swift */,
+				449669342BE1A21E00931A5D /* KTExploreViewModel.swift */,
+				449669302BE19F5600931A5D /* KTExploreTripsView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		449669172BE1997E00931A5D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				449669152BE1994000931A5D /* KTButton.swift */,
+				4496695D2BE2559B00931A5D /* KTPrimaryButton.swift */,
+				449669182BE1998600931A5D /* KTImageButton.swift */,
+				4496692E2BE19E0600931A5D /* KTViewAllButton.swift */,
+				274729AD2BFBC63600026129 /* KTGoogleButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		449669242BE19B3B00931A5D /* HorizontalTrips */ = {
+			isa = PBXGroup;
+			children = (
+				449669252BE19B4D00931A5D /* KTHorizontalTripsView.swift */,
+				449669492BE235A100931A5D /* KTHorizontalTripsViewModel.swift */,
+			);
+			path = HorizontalTrips;
+			sourceTree = "<group>";
+		};
+		449669272BE19B7F00931A5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				449669432BE2233E00931A5D /* KTError.swift */,
+				44C45DEC2BE2BEB20097EDA0 /* KTTripDifficulty.swift */,
+				449669632BE25DF200931A5D /* KTUser.swift */,
+				44C45E122BE3A44B0097EDA0 /* KTTripsCollectionStyle.swift */,
+				449669482BE2254200931A5D /* Firestore */,
+				449669472BE2253900931A5D /* Adapters */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		449669362BE1A79F00931A5D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				271215462BE4CC74006BE61C /* ProfileSettings */,
+				44C45E272BE3E2690097EDA0 /* Ticket */,
+				44C45E242BE3D0B80097EDA0 /* Tickets */,
+				44C45E1F2BE3CED10097EDA0 /* Favourites */,
+				44C45E142BE3A97A0097EDA0 /* Order */,
+				44C45E0F2BE2F2940097EDA0 /* FAQ */,
+				44C45E0C2BE2F03C0097EDA0 /* GuideDetails */,
+				44C45E012BE2D9DF0097EDA0 /* Search */,
+				449669372BE1A7A300931A5D /* TripDetails */,
+				44C45DF02BE2C5E40097EDA0 /* TripsList */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		449669372BE1A7A300931A5D /* TripDetails */ = {
+			isa = PBXGroup;
+			children = (
+				449669382BE1A7B600931A5D /* KTTripDetailsScreen.swift */,
+				44C45E0A2BE2E80A0097EDA0 /* KTTripDetailsFooterView.swift */,
+				4496694E2BE2406D00931A5D /* KTTripDetailsViewModel.swift */,
+			);
+			path = TripDetails;
+			sourceTree = "<group>";
+		};
+		4496693E2BE2227A00931A5D /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				4496693C2BE2204C00931A5D /* KTFirebaseServiceType.swift */,
+				4496693F2BE2229500931A5D /* FBSnapshotInitializable.swift */,
+				449669412BE2230100931A5D /* KTTripsService.swift */,
+				44C45DFF2BE2D40A0097EDA0 /* KTGuidesService.swift */,
+				449669452BE224C100931A5D /* KTTripsCollectionsService.swift */,
+				44C45E1D2BE3C16F0097EDA0 /* KTUsersService.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		449669472BE2253900931A5D /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				4496692C2BE19CA600931A5D /* KTTripAdapter.swift */,
+				44C45DF92BE2D1860097EDA0 /* KTGuideAdapter.swift */,
+				44C45E2E2BE4113F0097EDA0 /* KTTicketAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		449669482BE2254200931A5D /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				4496692A2BE19CA200931A5D /* KTTrip.swift */,
+				44C45DFB2BE2D1EB0097EDA0 /* KTGuide.swift */,
+				449669322BE19F9C00931A5D /* KTTripsCollection.swift */,
+				44C45E2C2BE410B30097EDA0 /* KTTicket.swift */,
+				27AD96042C0E1E53004B639F /* KTTicketStatus.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		4496694B2BE2372500931A5D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4496694C2BE2375800931A5D /* RxViewController.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		449669582BE251EA00931A5D /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				449669562BE250EF00931A5D /* KTInputView.swift */,
+				449669592BE251F900931A5D /* KTEmailInputView.swift */,
+				4496695B2BE2552000931A5D /* KTPasswordInputView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		44C45DE52BE2A5240097EDA0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				44C45DE62BE2A52A0097EDA0 /* KTProfileScreen.swift */,
+				44C45E062BE2E28D0097EDA0 /* KTProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		44C45DF02BE2C5E40097EDA0 /* TripsList */ = {
+			isa = PBXGroup;
+			children = (
+				44C45DEE2BE2C5E20097EDA0 /* KTTripsListScreen.swift */,
+				44C45DF12BE2C63E0097EDA0 /* KTTripsListViewModel.swift */,
+			);
+			path = TripsList;
+			sourceTree = "<group>";
+		};
+		44C45DF62BE2CF8C0097EDA0 /* Guides */ = {
+			isa = PBXGroup;
+			children = (
+				44C45DF72BE2CF940097EDA0 /* KTGuidesScreen.swift */,
+				44C45DFD2BE2D33A0097EDA0 /* KTGuidesViewModel.swift */,
+			);
+			path = Guides;
+			sourceTree = "<group>";
+		};
+		44C45E012BE2D9DF0097EDA0 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E022BE2D9E80097EDA0 /* KTSearchTripsScreen.swift */,
+				44C45E042BE2DC780097EDA0 /* KTSearchTripsViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		44C45E0C2BE2F03C0097EDA0 /* GuideDetails */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E0D2BE2F04A0097EDA0 /* KTGuideDetailsScreen.swift */,
+			);
+			path = GuideDetails;
+			sourceTree = "<group>";
+		};
+		44C45E0F2BE2F2940097EDA0 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E102BE2F29B0097EDA0 /* KTFAQScreen.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		44C45E142BE3A97A0097EDA0 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E152BE3A9810097EDA0 /* KTOrderScreen.swift */,
+				44C45E192BE3BAE30097EDA0 /* KTOrderViewModel.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		44C45E1F2BE3CED10097EDA0 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E202BE3CEDC0097EDA0 /* KTFavouritesScreen.swift */,
+				44C45E222BE3CEE10097EDA0 /* KTFavouritesViewModel.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		44C45E242BE3D0B80097EDA0 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E252BE3D0BF0097EDA0 /* KTTicketsScreen.swift */,
+				44C45E302BE418030097EDA0 /* KTTicketsViewModel.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		44C45E272BE3E2690097EDA0 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				44C45E282BE3E2700097EDA0 /* KTTicketScreen.swift */,
+				44C45E2A2BE40D380097EDA0 /* KTTicketKeyValueView.swift */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		717AB57822ADA25FE247547E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DA1E58170DBFFF2B9EB11 /* Pods_Kettik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449668832BE16BAA00931A5D /* Kettik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449668982BE16BAB00931A5D /* Build configuration list for PBXNativeTarget "Kettik" */;
+			buildPhases = (
+				69F13C76755554029272445F /* [CP] Check Pods Manifest.lock */,
+				449668802BE16BAA00931A5D /* Sources */,
+				449668812BE16BAA00931A5D /* Frameworks */,
+				449668822BE16BAA00931A5D /* Resources */,
+				CBE9E142992B87C0A6363A4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kettik;
+			packageProductDependencies = (
+				449668C12BE1740F00931A5D /* RxBlocking */,
+				449668C32BE1740F00931A5D /* RxCocoa */,
+				449668C52BE1740F00931A5D /* RxRelay */,
+				449668C72BE1740F00931A5D /* RxSwift */,
+				449668CA2BE1741C00931A5D /* IQKeyboardManagerSwift */,
+				449668CD2BE1742800931A5D /* SnapKit */,
+				449668D02BE1749A00931A5D /* RxGesture */,
+				449668D32BE174A700931A5D /* Then */,
+				449668D62BE1750E00931A5D /* Kingfisher */,
+				449668DB2BE1895000931A5D /* FirebaseAuth */,
+				449668DD2BE1895000931A5D /* FirebaseDatabaseSwift */,
+				449668DF2BE1895000931A5D /* FirebaseFirestoreSwift */,
+				449668E12BE1895000931A5D /* FirebaseRemoteConfigSwift */,
+				44C45DDE2BE28DFD0097EDA0 /* Toast */,
+				274729A92BF02E2500026129 /* GoogleSignIn */,
+				274729AB2BF02E2500026129 /* GoogleSignInSwift */,
+			);
+			productName = Kettik;
+			productReference = 449668842BE16BAA00931A5D /* Kettik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4496687C2BE16BAA00931A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					449668832BE16BAA00931A5D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4496687F2BE16BAA00931A5D /* Build configuration list for PBXProject "Kettik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				"kk-KZ",
+			);
+			mainGroup = 4496687B2BE16BAA00931A5D;
+			packageReferences = (
+				449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				449668C92BE1741C00931A5D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				449668CC2BE1742800931A5D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				449668CF2BE1749A00931A5D /* XCRemoteSwiftPackageReference "RxGesture" */,
+				449668D22BE174A700931A5D /* XCRemoteSwiftPackageReference "Then" */,
+				449668D52BE1750E00931A5D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				44C45DDD2BE28DFD0097EDA0 /* XCRemoteSwiftPackageReference "toast-swift" */,
+				274729A82BF02E2500026129 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 449668852BE16BAA00931A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449668832BE16BAA00931A5D /* Kettik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449668822BE16BAA00931A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274729B02BFC0C8C00026129 /* GoogleService-Info.plist in Resources */,
+				449668B02BE1714C00931A5D /* Localizable.strings in Resources */,
+				4496691F2BE19AF200931A5D /* SF-Pro-Text-Bold.otf in Resources */,
+				449668942BE16BAB00931A5D /* LaunchScreen.storyboard in Resources */,
+				449668AB2BE16EC000931A5D /* Colors.xcassets in Resources */,
+				449669202BE19AF200931A5D /* SF-Pro-Text-Semibold.otf in Resources */,
+				449668912BE16BAB00931A5D /* Images.xcassets in Resources */,
+				449669222BE19AF200931A5D /* SF-Pro-Text-Regular.otf in Resources */,
+				44C45E1C2BE3BCD20097EDA0 /* SF-Pro-Text-Heavy.otf in Resources */,
+				4496688F2BE16BAA00931A5D /* Main.storyboard in Resources */,
+				449669212BE19AF200931A5D /* SF-Pro-Text-Medium.otf in Resources */,
+				449669232BE19AF200931A5D /* SF-Pro-Text-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69F13C76755554029272445F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kettik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE9E142992B87C0A6363A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kettik/Pods-Kettik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kettik/Pods-Kettik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kettik/Pods-Kettik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449668802BE16BAA00931A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C45E2D2BE410B30097EDA0 /* KTTicket.swift in Sources */,
+				449668B72BE1715F00931A5D /* KTColors.swift in Sources */,
+				449668F12BE18BDF00931A5D /* InjectionKey.swift in Sources */,
+				449668E82BE18A8800931A5D /* KTLibsProvider.swift in Sources */,
+				449669352BE1A21E00931A5D /* KTExploreViewModel.swift in Sources */,
+				449669262BE19B4D00931A5D /* KTHorizontalTripsView.swift in Sources */,
+				44C45E162BE3A9810097EDA0 /* KTOrderScreen.swift in Sources */,
+				274729AE2BFBC63600026129 /* KTGoogleButton.swift in Sources */,
+				449668F52BE18E2700931A5D /* KTNavigationController.swift in Sources */,
+				449669192BE1998600931A5D /* KTImageButton.swift in Sources */,
+				44C45DF22BE2C63E0097EDA0 /* KTTripsListViewModel.swift in Sources */,
+				271215482BE4CC95006BE61C /* KTPRofileSettingsScreen.swift in Sources */,
+				44C45E092BE2E5380097EDA0 /* KTStatic.swift in Sources */,
+				44C45E312BE418030097EDA0 /* KTTicketsViewModel.swift in Sources */,
+				271215452BE4CC3E006BE61C /* KTAccordionView.swift in Sources */,
+				44C45DF52BE2C8090097EDA0 /* KTTripCellView.swift in Sources */,
+				449668B82BE1715F00931A5D /* KTFonts.swift in Sources */,
+				4496690F2BE1928200931A5D /* KTPreview.swift in Sources */,
+				449669332BE19F9C00931A5D /* KTTripsCollection.swift in Sources */,
+				449668F02BE18BDF00931A5D /* InjectedValues.swift in Sources */,
+				44C45E0B2BE2E80A0097EDA0 /* KTTripDetailsFooterView.swift in Sources */,
+				2712154A2BE4CCB6006BE61C /* KTPRofileSettingsViewModel.swift in Sources */,
+				4496695A2BE251F900931A5D /* KTEmailInputView.swift in Sources */,
+				449668B62BE1715F00931A5D /* KTImages.swift in Sources */,
+				44C45E072BE2E28D0097EDA0 /* KTProfileViewModel.swift in Sources */,
+				44C45E052BE2DC780097EDA0 /* KTSearchTripsViewModel.swift in Sources */,
+				449668BC2BE1733700931A5D /* KTStrings.swift in Sources */,
+				449668FD2BE1900100931A5D /* KTExtensions.swift in Sources */,
+				44C45E1E2BE3C16F0097EDA0 /* KTUsersService.swift in Sources */,
+				44C45DED2BE2BEB20097EDA0 /* KTTripDifficulty.swift in Sources */,
+				4496693D2BE2204C00931A5D /* KTFirebaseServiceType.swift in Sources */,
+				449668EF2BE18BDF00931A5D /* InjectedValues+.swift in Sources */,
+				44C45E182BE3BABB0097EDA0 /* KTCountControl.swift in Sources */,
+				44C45DDC2BE28B6E0097EDA0 /* KTFullScreenLoadingView.swift in Sources */,
+				4496695E2BE2559B00931A5D /* KTPrimaryButton.swift in Sources */,
+				449669402BE2229500931A5D /* FBSnapshotInitializable.swift in Sources */,
+				449669112BE1942F00931A5D /* KTSpinnerView.swift in Sources */,
+				4496692B2BE19CA200931A5D /* KTTrip.swift in Sources */,
+				44C45DEB2BE2BE310097EDA0 /* KTDifficultyView.swift in Sources */,
+				449669622BE25AF800931A5D /* KTSignInViewModel.swift in Sources */,
+				4496695C2BE2552000931A5D /* KTPasswordInputView.swift in Sources */,
+				4496692D2BE19CA600931A5D /* KTTripAdapter.swift in Sources */,
+				449668F32BE18C7000931A5D /* KTDataService.swift in Sources */,
+				449669392BE1A7B600931A5D /* KTTripDetailsScreen.swift in Sources */,
+				449669312BE19F5600931A5D /* KTExploreTripsView.swift in Sources */,
+				274729A72BEFB36400026129 /* KTFullScreenImageView.swift in Sources */,
+				44C45E2B2BE40D380097EDA0 /* KTTicketKeyValueView.swift in Sources */,
+				44C45E002BE2D40A0097EDA0 /* KTGuidesService.swift in Sources */,
+				4496694D2BE2375800931A5D /* RxViewController.swift in Sources */,
+				449668F92BE18F9200931A5D /* KTViewModel.swift in Sources */,
+				44C45E262BE3D0BF0097EDA0 /* KTTicketsScreen.swift in Sources */,
+				4496692F2BE19E0600931A5D /* KTViewAllButton.swift in Sources */,
+				44C45DFA2BE2D1860097EDA0 /* KTGuideAdapter.swift in Sources */,
+				449669532BE24EB900931A5D /* KTAuthorizationService.swift in Sources */,
+				27AD96052C0E1E53004B639F /* KTTicketStatus.swift in Sources */,
+				44C45E292BE3E2700097EDA0 /* KTTicketScreen.swift in Sources */,
+				449668E62BE18A3800931A5D /* KTApplicationService.swift in Sources */,
+				449668882BE16BAA00931A5D /* AppDelegate.swift in Sources */,
+				274729A52BEFA5EC00026129 /* KTImagesCellView.swift in Sources */,
+				44C45DF82BE2CF940097EDA0 /* KTGuidesScreen.swift in Sources */,
+				449669462BE224C100931A5D /* KTTripsCollectionsService.swift in Sources */,
+				44C45DE72BE2A52A0097EDA0 /* KTProfileScreen.swift in Sources */,
+				44C45DFE2BE2D33A0097EDA0 /* KTGuidesViewModel.swift in Sources */,
+				449669552BE2505700931A5D /* KTSignInScreen.swift in Sources */,
+				449669642BE25DF200931A5D /* KTUser.swift in Sources */,
+				4496694F2BE2406D00931A5D /* KTTripDetailsViewModel.swift in Sources */,
+				4496694A2BE235A100931A5D /* KTHorizontalTripsViewModel.swift in Sources */,
+				449669442BE2233E00931A5D /* KTError.swift in Sources */,
+				44C45E032BE2D9E80097EDA0 /* KTSearchTripsScreen.swift in Sources */,
+				44C45DEF2BE2C5E20097EDA0 /* KTTripsListScreen.swift in Sources */,
+				44C45E212BE3CEDC0097EDA0 /* KTFavouritesScreen.swift in Sources */,
+				449669422BE2230100931A5D /* KTTripsService.swift in Sources */,
+				449669142BE196B600931A5D /* KTExploreScreen.swift in Sources */,
+				449668A72BE16C3200931A5D /* KTTabScreen.swift in Sources */,
+				449669052BE190DF00931A5D /* KTScrollableViewController.swift in Sources */,
+				44C45E112BE2F29B0097EDA0 /* KTFAQScreen.swift in Sources */,
+				449669012BE1909300931A5D /* KTTableViewCell.swift in Sources */,
+				449668FB2BE18FDA00931A5D /* KTViewModelProtocol.swift in Sources */,
+				44C45E132BE3A44B0097EDA0 /* KTTripsCollectionStyle.swift in Sources */,
+				449669602BE256EF00931A5D /* KTSignUpScreen.swift in Sources */,
+				449669512BE245A000931A5D /* KTIconTextView.swift in Sources */,
+				449669032BE190A800931A5D /* KTCollectionViewCell.swift in Sources */,
+				44C45E0E2BE2F04A0097EDA0 /* KTGuideDetailsScreen.swift in Sources */,
+				449669082BE1914200931A5D /* KTSplashScreen.swift in Sources */,
+				449669162BE1994000931A5D /* KTButton.swift in Sources */,
+				449668FF2BE1908100931A5D /* KTView.swift in Sources */,
+				44C45E1A2BE3BAE30097EDA0 /* KTOrderViewModel.swift in Sources */,
+				449668A32BE16C2700931A5D /* KTViewController.swift in Sources */,
+				449669572BE250EF00931A5D /* KTInputView.swift in Sources */,
+				44C45DE12BE290860097EDA0 /* KTSignUpViewModel.swift in Sources */,
+				4496690B2BE1918500931A5D /* KTSplashLoadable.swift in Sources */,
+				44C45E232BE3CEE10097EDA0 /* KTFavouritesViewModel.swift in Sources */,
+				44C45E2F2BE4113F0097EDA0 /* KTTicketAdapter.swift in Sources */,
+				44C45DFC2BE2D1EB0097EDA0 /* KTGuide.swift in Sources */,
+				4496688A2BE16BAA00931A5D /* SceneDelegate.swift in Sources */,
+				449668EE2BE18BDF00931A5D /* Injected.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4496688D2BE16BAA00931A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4496688E2BE16BAA00931A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449668922BE16BAB00931A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449668932BE16BAB00931A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		449668B22BE1714C00931A5D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449668B12BE1714C00931A5D /* en */,
+				449668B92BE172F300931A5D /* ru */,
+				449668BA2BE1730600931A5D /* kk-KZ */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449668962BE16BAB00931A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449668972BE16BAB00931A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449668992BE16BAB00931A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34DC28E154651429854E6C2 /* Pods-Kettik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Brand/accent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N37ZT2S927;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kettik/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.kettik.ios.Kettik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4496689A2BE16BAB00931A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6C43D6B9A7B7D2F808F0FC /* Pods-Kettik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Brand/accent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMS4UNGSXU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kettik/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.kettik.ios.Kettik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4496687F2BE16BAA00931A5D /* Build configuration list for PBXProject "Kettik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449668962BE16BAB00931A5D /* Debug */,
+				449668972BE16BAB00931A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449668982BE16BAB00931A5D /* Build configuration list for PBXNativeTarget "Kettik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449668992BE16BAB00931A5D /* Debug */,
+				4496689A2BE16BAB00931A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		274729A82BF02E2500026129 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.0;
+			};
+		};
+		449668C92BE1741C00931A5D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+		449668CC2BE1742800931A5D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		449668CF2BE1749A00931A5D /* XCRemoteSwiftPackageReference "RxGesture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxGesture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.4;
+			};
+		};
+		449668D22BE174A700931A5D /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		449668D52BE1750E00931A5D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+		44C45DDD2BE28DFD0097EDA0 /* XCRemoteSwiftPackageReference "toast-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BastiaanJansen/toast-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		274729A92BF02E2500026129 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 274729A82BF02E2500026129 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		274729AB2BF02E2500026129 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 274729A82BF02E2500026129 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		449668C12BE1740F00931A5D /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		449668C32BE1740F00931A5D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		449668C52BE1740F00931A5D /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		449668C72BE1740F00931A5D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668C02BE1740F00931A5D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		449668CA2BE1741C00931A5D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668C92BE1741C00931A5D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		449668CD2BE1742800931A5D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668CC2BE1742800931A5D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		449668D02BE1749A00931A5D /* RxGesture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668CF2BE1749A00931A5D /* XCRemoteSwiftPackageReference "RxGesture" */;
+			productName = RxGesture;
+		};
+		449668D32BE174A700931A5D /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668D22BE174A700931A5D /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		449668D62BE1750E00931A5D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668D52BE1750E00931A5D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		449668DB2BE1895000931A5D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		449668DD2BE1895000931A5D /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		449668DF2BE1895000931A5D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		449668E12BE1895000931A5D /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449668DA2BE1895000931A5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		44C45DDE2BE28DFD0097EDA0 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C45DDD2BE28DFD0097EDA0 /* XCRemoteSwiftPackageReference "toast-swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4496687C2BE16BAA00931A5D /* Project object */;
+}

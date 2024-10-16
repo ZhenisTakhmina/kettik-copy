@@ -1,0 +1,72 @@
+/*
+  Localizable.strings
+  Kettik
+
+  Created by Tami on 30.04.2024.
+  
+*/
+
+"common.email" = "Почта";
+"common.password" = "Құпиясөз";
+"common.sign_up" = "Тіркелу";
+"common.full_name" = "Толық аты";
+"common.view_all" = "Барлығын көру";
+
+"auth.title" = "Қощ келдіңіз!";
+"auth.enter_your_email" = "Поштаңызды енгізіңіз";
+"auth.enter_password" = "Құпиясөз енгізіңіз";
+"auth.fogot_password" = "Құпиясөзді ұмыттыңызба?";
+"auth.log_in" = "Кіру";
+"auth.sign_up" = "Тіркелу";
+"auth.sign_up_text" = "Есептік жазбаңыз жоқ па?";
+"auth.enter_full_name" = "Толық есім енгізіңіз";
+"auth.enter_your_password" = "Құпиясөз енгізіңіз";
+"auth.password_hint" = "Құпия сөзіңізде кемінде бір таңба болуы керек және 8 немесе одан да көп таңба болуы керек";
+"auth.confirmation_title" = "We just emailed you.";
+"auth.confirmation_text" = "Please enter the code we emailed you.";
+"auth.confirmation_code" = "Confirmation code";
+"auth.resend_code" = "Resend Code";
+"auth.verify" = "Verify";
+
+"tab.explore" = "Зерттеу";
+"tab.guides" = "Бағыттаушы";
+"tab.orders" = "Тапсырыстар";
+"tab.profile" = "Профиль";
+
+"explore.title" = "Алматыға қош келдіңіз!";
+"explore.searchText" = "Іздеу";
+
+"trip.slash_person" = "/ адам";
+"trip.about_tour" = "Жорық жайлы";
+"trip.total_price" = "Жалпы Бағасы";
+"trip.book_now" = "Сатып алу";
+"trip.difficulty.easy" = "Жеңіл";
+"trip.difficulty.hard" = "Қиын";
+"trip.difficulty.medium" = "Орташа";
+
+"profile.my_tickets" = "Менің билеттерім";
+"profile.my_profile" = "Менің парақшам";
+"profile.favourites" = "Таңдаулылар";
+"profile.language" = "Қосымша тілі";
+"profile.faq" = "Сұрақ & Жауаптар";
+"profile.social_media_title" = "Біз әлеуметтік желідеміз :)";
+"profile.sign_out" = "Шығу";
+"profile.save" = "Сақтау";
+
+"ticket.date" = "КҮНІ";
+"ticket.count" = "САНЫ";
+"ticket.trip" = "САПАР";
+"ticket.price" = "БАҒАСЫ";
+"ticket.ticket" = "ticket";
+"ticket.ticket" = " билет";
+"ticket.make_purchase" = "Сатып алу";
+"ticket.pending" = "Күтуде";
+"ticket.purchased" = "Сатып алынды";
+"ticket.status" = "СТАТУС";
+"ticket.invalid" = "Жарамсыз";
+
+
+
+
+
+

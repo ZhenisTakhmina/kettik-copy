@@ -1,0 +1,68 @@
+/*
+  Localizable.strings
+  Kettik
+
+  Created by Tami on 30.04.2024.
+  
+*/
+
+"common.email" = "Почта";
+"common.password" = "Пароль";
+"common.sign_up" = "Регистрация";
+"common.full_name" = "Полное имя";
+"common.view_all" = "Смотреть все";
+
+"auth.title" = "Добро пожаловать!";
+"auth.enter_your_email" = "Введите почту";
+"auth.enter_password" = "Введите пароль";
+"auth.fogot_password" = "Забыли пароль?";
+"auth.log_in" = "Войти";
+"auth.sign_up" = "Регистрация";
+"auth.sign_up_text" = "У вас нет учетной записи?";
+"auth.enter_full_name" = "Введите свое полное имя";
+"auth.enter_your_password" = "Введите ваш пароль";
+"auth.password_hint" = "Ваш пароль должен содержать хотя бы один символ и состоять из 8 или более символов.";
+"auth.confirmation_title" = "We just emailed you.";
+"auth.confirmation_text" = "Please enter the code we emailed you.";
+"auth.confirmation_code" = "Confirmation code";
+"auth.resend_code" = "Resend Code";
+"auth.verify" = "Verify";
+
+"tab.explore" = "Исследовать";
+"tab.guides" = "Гиды";
+"tab.orders" = "Заказы";
+"tab.profile" = "Профиль";
+
+"explore.title" = "Приветствуем в Алматы!";
+"explore.searchText" = "Поиск";
+
+"trip.slash_person" = "/ человек";
+"trip.about_tour" = "О туре";
+"trip.total_price" = "Итоговая цена";
+"trip.book_now" = "Купить";
+"trip.difficulty.easy" = "Легкий";
+"trip.difficulty.hard" = "Трудный";
+"trip.difficulty.medium" = "Средний";
+
+"profile.my_tickets" = "Мои Билеты";
+"profile.my_profile" = "Мой Профиль";
+"profile.favourites" = "Избранное";
+"profile.language" = "Язык приложения";
+"profile.faq" = "Вопросы & Ответы";
+"profile.social_media_title" = "Мы в социальных сетях :)";
+"profile.sign_out" = "Выйти";
+"profile.save" = "Сохранить";
+
+"ticket.date" = "ДАТА";
+"ticket.count" = "КОЛИЧЕСТВО";
+"ticket.trip" = "ПОЕЗДКА";
+"ticket.price" = "ЦЕНА";
+"ticket.ticket" = " билет";
+"ticket.make_purchase" = "Купить";
+"ticket.pending" = "В обработке";
+"ticket.purchased" = "Оплачен";
+"ticket.status" = "СТАТУС";
+"ticket.invalid" = "Не действителен";
+
+
+
